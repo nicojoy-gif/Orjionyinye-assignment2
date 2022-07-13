@@ -1,27 +1,6 @@
 // ========================
 // DO NOT EDIT THIS BLOCK
-const assignment = {
-  sumOfNumbers: function(arrayOfNumbers) {
-    let sumNum = 0;
-    for(let i = 0; i < arrayOfNumbers.length; i++){
-        sumNum += arrayOfNumbers[i];
-        
-    } 
-  return sumNum;
-
-},
-  countEvenNumbers: function(arrayOfNumbers) {
-    let even = 0;
-    for (let i = 0; i < arrayOfNumbers.length; i++){
-        if (arrayOfNumbers[i] % 2 === 0){
-            even++;
-        }
-    }
-    return even;
-    
-} 
-   
-};
+const assignment = {};
 // ========================
 
 
